@@ -77,14 +77,14 @@ i j k
 ### Sample Output
 
 ```
-34
-0 1 5
-1 2 5
-2 4 5
-2 3 4
+16
+0 3 5
+0 1 3
+1 2 3
+3 4 5
 ```
 
-This indicates a triangulation that achieves the minimum cost of `34` by creating the triangles listed.
+This indicates a triangulation that achieves the minimum cost of `16` by creating the triangles listed.
 
 ---
 ## 🔍 Code Breakdown
