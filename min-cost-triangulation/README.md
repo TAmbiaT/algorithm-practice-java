@@ -6,7 +6,7 @@ This project implements a dynamic programming algorithm to compute the minimum-c
 
 ## ▶️ Run Online
 
-👉 [Run on JDoodle](https://www.jdoodle.com/xyz-triangulation)
+👉 [Run on JDoodle](https://www.jdoodle.com/ia/1Iay)
 
 > To run:
 > 1. Click the link above.
