@@ -4,7 +4,7 @@ A modern, interactive web application showcasing classic algorithms with beautif
 
 ## 🌐 Live Demo
 
-**Try the algorithms online:** [Algorithm Playground](https://your-vercel-url-here.vercel.app)
+**Try the algorithms online:** [Algorithm Playground](https://flow-triangulation-calculator.vercel.app/)
 
 *Interactive web calculator with real-time algorithm execution and beautiful UI*
 
@@ -55,7 +55,7 @@ algorithm-practice-java/
 ## ▶️ Running the Application
 
 ### 🌐 Web Application (Recommended)
-**Try the interactive web application:** [Algorithm Playground](https://your-vercel-url-here.vercel.app)
+**Try the interactive web application:** [Algorithm Playground](https://flow-triangulation-calculator.vercel.app/)
 
 Features:
 - Beautiful, modern interface with dark/light mode
