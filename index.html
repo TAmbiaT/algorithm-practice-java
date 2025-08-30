@@ -16,6 +16,15 @@
             background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
             color: white;
             min-height: 100vh;
+            transition: all 0.3s ease;
+        }
+        body.dark-mode {
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            color: white;
+        }
+        body:not(.dark-mode) {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff8c42 100%);
+            color: #333;
         }
         .container {
             max-width: 1200px;
@@ -28,6 +37,11 @@
             padding: 40px;
             margin-bottom: 30px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        body:not(.dark-mode) .calculator {
+            background: white;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
         }
         .btn {
             padding: 12px 24px;
@@ -40,6 +54,10 @@
         }
         .btn-primary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        body:not(.dark-mode) .btn-primary {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
             color: white;
         }
     </style>
