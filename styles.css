@@ -7,15 +7,15 @@
 
 :root {
     /* Light theme colors */
-    --bg-gradient-light: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff8c42 100%);
-    --text-light: #333;
-    --calculator-bg-light: white;
-    --input-bg-light: #f7fafc;
-    --border-light: #e2e8f0;
-    --text-muted-light: #718096;
-    --result-bg-light: #f0fff4;
-    --result-border-light: #9ae6b4;
-    --result-text-light: #22543d;
+    --bg-gradient-light: linear-gradient(135deg, rgba(160, 200, 161, 0.85) 0%, rgba(130, 180, 131, 0.8) 50%, rgba(145, 190, 146, 0.85) 100%);
+    --text-light: #2d5016;
+    --calculator-bg-light: rgba(255, 255, 255, 0.95);
+    --input-bg-light: rgba(240, 248, 240, 0.8);
+    --border-light: rgba(76, 175, 80, 0.3);
+    --text-muted-light: #4a6741;
+    --result-bg-light: rgba(232, 245, 233, 0.9);
+    --result-border-light: rgba(76, 175, 80, 0.5);
+    --result-text-light: #1b5e20;
     
     /* Dark theme colors */
     --bg-gradient-dark: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
@@ -145,8 +145,8 @@ body.dark-mode .theme-toggle .fa-moon {
 }
 
 .algo-btn {
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     color: white;
     padding: 15px 25px;
     border-radius: 12px;
@@ -161,14 +161,14 @@ body.dark-mode .theme-toggle .fa-moon {
 }
 
 .algo-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
     transform: translateY(-2px);
 }
 
 .algo-btn.active {
-    background: rgba(255, 255, 255, 0.25);
-    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
 }
 
@@ -469,15 +469,15 @@ body.dark-mode .edge-input input {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    background: linear-gradient(135deg, #2e7d32 0%, #388e3c 100%);
     color: white;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.4);
     transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+    box-shadow: 0 6px 20px rgba(46, 125, 50, 0.6);
 }
 
 body.dark-mode .btn-primary {
@@ -490,13 +490,26 @@ body.dark-mode .btn-primary:hover {
 }
 
 .btn-secondary {
-    background: #e2e8f0;
-    color: #4a5568;
+    background: rgba(200, 230, 201, 0.8);
+    color: #2e7d32;
+    border: 1px solid rgba(76, 175, 80, 0.3);
 }
 
 .btn-secondary:hover {
-    background: #cbd5e0;
+    background: rgba(165, 214, 167, 0.9);
     transform: translateY(-1px);
+    border-color: rgba(76, 175, 80, 0.5);
+}
+
+body.dark-mode .btn-secondary {
+    background: #e2e8f0;
+    color: #4a5568;
+    border: 1px solid transparent;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: #cbd5e0;
+    border-color: transparent;
 }
 
 /* Results Section */

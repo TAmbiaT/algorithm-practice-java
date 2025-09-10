@@ -3,7 +3,7 @@
 class AlgorithmCalculator {
     constructor() {
         this.currentAlgorithm = 'triangulation';
-        this.currentTheme = this.getStoredTheme() || 'dark';
+        this.currentTheme = this.getStoredTheme() || 'light';
         this.initializeEventListeners();
         this.setupMaxFlowInputs();
         this.applyTheme();
